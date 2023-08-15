@@ -12,5 +12,16 @@
 }
 
 .my-root-class body {
-	background: url(./assets/background.svg) no-repeat center center fixed;
+	background: url(./assets/background.svg) no-repeat top center fixed;
+}
+
+.kcFormCardClass {
+	flex-direction: row;
+	justify-content: space-evenly;
+	border-radius: 5px;
+	background: url(./assets/login-modal-bg.webp) no-repeat fixed 50%;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	border: 2px solid hsla(0,0%,66.7%,.1);
 }
